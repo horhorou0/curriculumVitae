@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Yassine BASRI</title>
+
+    <link rel="icon" href="./img/mdb-favicon.ico" type="image/x-icon" />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    />
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="./css/mdb.min.css" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body class="animated fadeIn" id="home">
+    <header class="bg-tertiaire">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center mb-5">
+            <h1 class="title">Yassine BASRI</h1>
+            <hr />
+            <h5>Développeur web junior</h5>
+            <small> <i>En formation</i></small>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <nav class="navbar navbar-dark bg-primaire sticky-top" id="mainMenu">
+      <button
+        class="navbar-toggler toggler-example"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent1"
+        aria-controls="navbarSupportedContent1"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        onclick="checkCollapsedMenu()"
+      >
+        <span class="dark-blue-text"><i class="fas fa-bars fa-2x"></i></span>
+      </button>
+      <ul class="navbar-nav ml-auto nav-flex-icons">
+        <li class="nav-item">
+          <a href="https://www.linkedin.com/in/yassine-basri/"class="nav-link waves-effect waves-light">
+            <i class="fab fa-linkedin fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav-item mx-4">
+          <a href="#formSection" class="nav-link waves-effect waves-light">
+            <i class="fa fa-envelope fa-2x"></i>
+          </a>
+        </li>
+
+      </ul>
+      <!-- Collapsible content -->
+      <div class="collapse navbar-collapse mt-3" id="navbarSupportedContent1">
+        <form class="form-inline">
+          <button class="btn btn-sm align-middle btn-outline-white" type="button" onclick="window.location.href='#home'">Accueil</button>
+          <button class="btn btn-sm align-middle btn-outline-white" type="button" onclick="window.location.href='#about-me'">A propos de moi</button>
+          <button class="btn btn-sm align-middle btn-outline-white" type="button" onclick="window.location.href='#my-skills'">Mes compétences</button>
+          <button class="btn btn-sm align-middle btn-outline-white" type="button" onclick="window.location.href='#portfolio'">Mes réalisations</button>
+          <button class="btn btn-sm align-middle btn-outline-white" type="button" onclick="window.location.href='#professionnal'">Mes expériences</button>
+          <button class="btn btn-sm align-middle btn-outline-white" type="button" onclick="window.location.href='#diplomas'">Mes diplômes</button>
+        </form>
+
+      
+        <!-- Links -->
+        <!-- <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Accueil <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">A propos de moi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Mon portfolio</a>
+          </li>
+        </ul> -->
+        <!-- Links -->
+      </div>
+    </nav>
+
+    <section id="about-me" class="bg-secondaire py-5" >
+      <div class="container pt-5" >
+        <div class="row">
+          <div class="col-lg-6">
+            <img class="block mx-auto"src="./img/svg/man.svg" width="230" height="230"/>
+          </div>
+          <div class="col-lg-6">
+            <div class="text-center text-white">
+              <h2 class="mb-0">A propos de moi</h2>
+              <p><i>En quelques mots.</i></p>
+              <hr />
+              <p>
+                Développeur web en formation, curieux et autonome.
+                <br>
+                Motivé par le besoin de faire toujours mieux et appuyé par de solides bases acquises lors de mon parcours, je prends plaisir à relever de nouveaux challenges.
+              </p>
+              <p class="text-info h5-responsive">Actuellement en recherche de stage.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="my-skills" class="bg-secondaire py-5">
+      <p class="title text-center text-white mb-0">COMPÉTENCES</p>
+      <p class="text-center text-white mb-5"><i>Je me forme facilement.</i></p>
+      <div class="container">
+        <ul class="row text-center mb-0" style="padding-left:0;" >
+          <li class="col-lg-4 effect-hover bg-tertiaire border-fe mb-5" data-aos="fade-right">
+            <div class="icon icon-skill bg-orange mx-auto rounded-bottom">
+              <i class="block far fa-window-maximize effect-horizontal-translate"></i>
+              
+            </div>
+            <p class="skill-title mt-3">FRONT END</p>
+            <ul class="skill-list text-center my-3" style="padding-left: 0px;">
+              <li>HTML5 / CSS3</li>
+              <li>JavaScript</li>
+              <li>Bootstrap</li>
+              <li>JQuery</li>
+            </ul>
+          </li>
+          <li class="col-lg-4 effect-hover bg-tertiaire border-be mb-5" data-aos="fade-up">
+            <div class="icon icon-skill bg-blue mx-auto rounded-bottom">
+              <i class=" block fas fa-cog effect-rotate"></i>
+            </div>
+            <p class="skill-title mt-3">BACK END</p>
+            <ul class="skill-list text-center" style="padding-left: 0px;">
+              <li>PHP / MySQL</li>
+            </ul>
+          </li>
+          <li class="col-lg-4 effect-hover bg-tertiaire border-ex mb-5" data-aos="fade-left">
+            <div class="icon icon-skill bg-green mx-auto rounded-bottom">
+              <i class="block fas fa-plus-circle effect-zoom"></i>
+            </div>
+            <p class="skill-title mt-3">EXTRAS</p>
+            <ul class="skill-list text-center" style="padding-left: 0px;">
+              <li><abbr title="Programmation Orientée Objet pour jeux-vidéos">GDScript</abbr></li>
+              <li></li>
+              <li>Wordpress
+              </li>
+              <li>Prestashop</li>
+            </ul>
+          </li>
+        </ul>
+    </section>
+    <section id="portfolio" class="bg-secondaire py-5">
+      <p class="title text-white mb-0">Mes réalisations</p>
+      <p class="text-white text-center mb-5"><i>Une liste de mes projets récents</i></p>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mb-5" data-aos="fade-right">
+            <div class="card"  >
+              <div class="view overlay">
+                <img src="./img/card_1.png.jpg" class="img-fluid" alt="basira">
+                <a href="https://horhorou0.github.io/basira"><div class="mask flex-center rgba-blue-light">
+                  <i class="fas fa-search fa-5x"></i>
+                </div></a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">BASIRA</h5>
+                <p class="card-text text-justify">Un site développé pour recenser mes jeux-vidéos.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-5" data-aos="fade-up">
+            <div class="card" >
+              <div class="view overlay">
+                <img src="./img/card_1.png.jpg" class="img-fluid" alt="basira">
+                <a href="https://horhorou0.github.io/basira"><div class="mask flex-center rgba-blue-light">
+                  <i class="fas fa-search fa-5x"></i>
+                </div></a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">BASIRA</h5>
+                <p class="card-text text-justify">Un site développé pour recenser mes jeux-vidéos.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-5" data-aos="fade-left">
+            <div class="card" >
+              <div class="view overlay">
+                <img src="./img/card_1.png.jpg" class="img-fluid" alt="basira">
+                <a href="https://horhorou0.github.io/basira"><div class="mask flex-center rgba-blue-light">
+                  <i class="fas fa-search fa-5x"></i>
+                </div></a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">BASIRA</h5>
+                <p class="card-text text-justify">Un site développé pour recenser mes jeux-vidéos.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="professionnal" class="bg-secondaire py-5">
+      <p class="title text-white mb-0">Mes expériences</p>
+      <p class="text-white text-center"><i>Polyvalent, je m'adapte très rapidement.</i></p>
+      <div class="container my-5">
+        <div class="row mb-5">
+          <div class="col-4 text-center" data-aos="fade-right">
+            <h3><div class="border text-dark badge badge-info text-center bg-tertiaire py-1" style="width: 150px;">
+              <p>Mars</p>
+              <p class="date my-0">2019</p>
+            </div></h3>
+          </div>
+          <div class="col-8" data-aos="fade-left">
+            <ul>
+              <div class="text-white">
+                <h5>Responsable d'accueil</h5>
+                <div class="col-8 badge  badge-light text-wrap" style="width: 6rem;">
+                  Maison Pour Tous
+                </div>
+                <div class="col-4 badge  badge-info text-wrap" style="width: 6rem;">
+                  Marseille 9ème
+                </div>
+              </div>
+              <div class="text-white my-3">
+                <li class="my-1" ><i class="fas fa-square text-info"></i>&nbsp;Assurer l'accueil du public ( physique et téléphonique )</li>
+                <li class="my-1"><i class="fas fa-square text-info"></i>&nbsp;Développement de partenariat sur la structure</li>
+                <li class="my-1"><i class="fas fa-square text-info"></i>&nbsp;Promotion de l'établissement par le biais d’événements</li>
+                <li class="my-1"><i class="fas fa-square text-info"></i>&nbsp;Gestion et organisation des différentes activités ( Judo, Danse, Peinture, Solfège)</li>
+                <li class="my-1"><i class="fas fa-square text-info"></i>&nbsp;Gestion de la structure</li>
+                <li class="my-1"><i class="fas fa-square text-info"></i>&nbsp;Traitement des factures des intervenants culturelles et sportifs</li>
+              </div>
+            </ul>
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-4 text-center" data-aos="fade-right">
+            <h3><div class="border text-dark badge badge-info  text-center bg-tertiaire py-1" style="width: 150px;">
+              <p><abbr title="Décembre">Déc.</abbr></p>
+              <p class="date my-0">2017</p>
+            </div></h3>
+          </div>
+          <div class="col-8" data-aos="fade-left">
+            <ul>
+              <div class="text-white">
+                <h5>Chargé de mission - Responsable de boutique</h5>
+                <div class="col-8 badge  badge-light text-wrap" style="width: 6rem;">
+                  Micromania
+                </div>
+                <div class="col-4 badge  badge-info text-wrap" style="width: 6rem;">
+                  Marseille 14ème
+                </div>
+              </div>
+              <div class="text-white my-3">
+                <li class="my-1" ><i class="fas fa-square text-info"></i>&nbsp;Encadrement des collaborateurs</li>
+                <li class="my-1"><i class="fas fa-square text-info"></i>&nbsp;Organisation de la mise en place d'opérations commerciales</li>
+                <li class="my-1"><i class="fas fa-square text-info"></i>&nbsp;Gestion des plannings</li>
+                <li class="my-1"><i class="fas fa-square text-info"></i>&nbsp;Recrutement</li>
+                <li class="my-1"><i class="fas fa-square text-info"></i>&nbsp;Mise en valeur de l'espace commercial</li>
+                <li class="my-1"><i class="fas fa-square text-info"></i>&nbsp;Veille concurrentielle régulière</li>
+              </div>
+            </ul>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <section id="diplomas" class="bg-secondaire py-5">
+      <p class="title text-white mb-0">Mes formations et diplômes</p>
+      <p class="text-white text-center"><i>Un véritable tremplin pour l'auto-formation.</i></p>
+      <div class="container my-5 bg-light rounded">
+        <div class="row " id="d_dwwm">
+          <div class="col-4 text-center my-3" data-aos="fade-right">
+            <div class="col-5 inline-block mx-1">
+              <h3><div class="text-dark badge text-center bg-success py-1">
+                2020
+              </div></h3>
+            </div>
+            <div class="col-5 inline-block mx-1 my-3">
+              <h3><div class="text-dark badge text-center bg-success py-1">
+                2021
+              </div></h3>
+            </div>
+          </div>
+          <div class="col my-3" data-aos="fade-left">
+            <div class="text-dark">
+              <h5>Développeur web et web mobile</h5>
+              <div class="col-8 badge badge-light text-wrap" style="width: 6rem;">
+                AFPA St-Jérôme
+              </div>
+              <div class="col-4 badge badge-success text-wrap mx-2" style="width: 6rem;">
+                Marseille 13ème
+              </div><br>
+              <!-- <span class="text-muted mr-2 mt-2">Certification obtenu</span><attr title="Diplôme obtenu"><img src="./img/svg/diploma.svg" width="25" class="text-center" alt="Diplôme obtenu"></attr> -->
+            </div> 
+          </div>
+        </div>
+        <div class="row my-5" id="d_sen" data-aos="fade-right">
+          <div class="col-4 text-center">
+            <div class="col-5 inline-block mx-1 my-3">
+              <h3><div class="text-dark badge text-center bg-success py-1">
+                2013
+              </div></h3>
+            </div>
+            <div class="col-5 inline-block mx-1 my-3">
+              <h3><div class="text-dark badge text-center bg-success py-1">
+                2016
+              </div></h3>
+            </div>
+          </div>
+          <div class="col my-3" data-aos="fade-left">
+            <div class="text-dark">
+              <h5>Baccalauréat professionnel <abbr title="Systèmes Électroniques et Numériques">SEN</abbr></h5>
+              <div class="col-8 badge badge-light text-wrap" style="width: 6rem;">
+                <abbr title="École modèle d'Électronique">EME</abbr>
+              </div>
+              <div class="col-4 badge badge-success text-wrap mx-2" style="width: 6rem;">
+                Marseille 11ème
+              </div><br>
+              <span class="text-muted mr-2 mt-2">Diplôme obtenu</span><attr title="Diplôme obtenu"><img src="./img/svg/diploma.svg" width="25" class="text-center" alt="Diplôme obtenu"></attr>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<footer id="formSection"class="page-footer font-small light-blue darken-3 pt-4">
+  <div class="container">
+    <div class="row py-5">
+      <div class="col text-center" >
+            <button type="button" class="btn btn-large btn-outline-white my-2" data-toggle="modal" data-target="#communicationsPopUp" >
+              Contactez-moi
+            </button>
+            <div class="modal fade" id="communicationsPopUp" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog"role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title text-dark" id="exampleModalLabel">Canaux de communications</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span class="h3"aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body text-dark">
+                      <div class="row my-2">
+                          <div class="col text-center">
+                            <button type="button" class="btn btn-outline-info waves-effect" onclick="showPhoneNumber()">
+                              <i class="fas fa-mobile fa-3x"></i>
+                            </button>
+                            <span id="modalPhoneNumber"class="d-none badge badge-dark h5-responsive"><div id="phoneNumber">06 26 64 45 67</div></span>
+                            <span id="copyToClipBoard"class="d-none btn btn-info rounded" onclick="CopyToClipboard('phoneNumber')"><i  class="fas fa-copy"></i></span>
+                          </div>
+                          <div class="col text-center">
+                            <button type="button" class="btn btn-outline-info waves-effect" data-toggle="modal" data-target="#formContact">
+                              <i class="fas fa-envelope fa-3x"></i>
+                            </button>
+                            <div class="modal fade" id="formContact" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog"role="document">
+                              <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h5 class="modal-title text-dark" id="exampleModalLabel">Par mail</h5>
+                                  </div>
+                                  <div class="modal-body text-dark">
+                                    <form action="https://formspree.io/f/maylnpwk"
+                                    method="POST" class="text-center border border-light p-5">
+                                      <p class="h4 mb-4">N'hésitez pas à me contactez, je vous répondrai dans les plus brefs délais.</p>
+                                      <input name="name" type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name" required>
+                                      <input name="_replyto" type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail" required>
+                                      <div class="form-group">
+                                          <textarea class="form-control rounded-0" name="message" id="exampleFormControlTextarea2" rows="3" placeholder="Message" required></textarea>
+                                      </div>
+                                      <button class="btn btn-info btn-block" type="submit" value="send">Envoyez<i class="fas fa-paper-plane mx-2"></i> 
+                                      </button>
+                                    </form>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger badge" data-dismiss="modal">Fermez</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <script type="text/javascript" src="./js/jquery-3.5.1.js"></script>
+    
+    <script type="text/javascript" src="./js/popper.min.js"></script>
+
+    <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="./js/mdb.min.js"></script>
+    <script type="text/javascript" src="./js/modules/mdb-plugins-gathered.min.js"></script>
+   
+    <script src="js/own/app.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+
+  </body>
+</html>
