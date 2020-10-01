@@ -29,6 +29,9 @@ html {
 .inline-block {
   display: inline-block;
 }
+.inline-flex {
+  display: inline-flex;
+}
 .none {
   display: none;
 }
@@ -138,6 +141,10 @@ html {
 }
 .bold {
   font-weight: 700;
+}
+
+.center {
+  margin: 0 auto;
 }
 
 @keyframes vertical-translate {
