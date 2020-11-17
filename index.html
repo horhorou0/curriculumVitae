@@ -322,6 +322,88 @@
       </div>
     </section>
 
+<footer id="formSection"class="page-footer font-small light-blue darken-3 pt-4">
+  <div class="container">
+    <div class="row py-5">
+      <div class="col text-center" >
+            <button type="button" class="btn btn-large btn-outline-white my-2" data-toggle="modal" data-target="#communicationsPopUp" >
+              Contactez-moi
+            </button>
+            <div class="modal fade" id="communicationsPopUp" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog"role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title text-dark" id="exampleModalLabel">Canaux de communications</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span class="h3"aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body text-dark">
+                      <div class="row my-2">
+                          <div class="col text-center">
+                            <button type="button" class="btn btn-outline-info waves-effect" onclick="showPhoneNumber()">
+                              <i class="fas fa-mobile fa-3x"></i>
+                            </button>
+                            <span id="modalPhoneNumber"class="d-none badge badge-dark h5-responsive"><div id="phoneNumber">06 26 64 45 67</div></span>
+                            <span id="copyToClipBoard"class="d-none btn btn-info rounded" onclick="CopyToClipboard('phoneNumber')"><i  class="fas fa-copy"></i></span>
+                          </div>
+                          <div class="col text-center">
+                            <button type="button" class="btn btn-outline-info waves-effect" data-toggle="modal" data-target="#formContact">
+                              <i class="fas fa-envelope fa-3x"></i>
+                            </button>
+                            <div class="modal fade" id="formContact" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog"role="document">
+                              <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h5 class="modal-title text-dark" id="exampleModalLabel">Par mail</h5>
+                                  
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span class="h3"aria-hidden="true">&times;</span>
+                                  </button>
+                                  </div>
+                                  <div class="modal-body text-dark h-100">
+                                    <form action="https://formspree.io/f/maylnpwk" method="POST" class="text-center border border-light p-5 z-depth-2 rounded h-100">
+                                      <p class="h4 mb-4 ">N'hésitez pas à me contactez, je vous répondrai dans les plus brefs délais.</p>
+                                      <div class="md-form">
+                                        <input name="name" type="text" id="defaultContactFormName" class="form-control mb-4 md-form" placeholder="Nom" required>
+                                      </div>
+                                      <div class="md-form">
+                                        <input name="_replyto" type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail" required>
+                                      </div>
+                                      <div class="form-group">
+                                        <div class="md-form">
+                                          <textarea id="materialContactFormMessage" class="form-control md-textarea" rows="3" name="message"></textarea>
+                                          <label for="materialContactFormMessage">Votre message</label>
+                                        </div>
+                                      </div>
+                                      <button class="btn btn-info btn-block" type="submit" value="send">Envoyez<i class="fas fa-paper-plane mx-2"></i> 
+                                      </button>
+                                    </form>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger badge" data-dismiss="modal">Fermez</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+      </div>
+    </div>
+    <div class="row py-5">
+      <div class="col">
+        <p class="text-white text-center"> CV développeur web © 2020 Yassine Basri </p>
+      </div>
+    </div>
+  </div>
+</footer>
 
     <script type="text/javascript" src="./js/jquery-3.5.1.js"></script>
     
@@ -341,87 +423,4 @@
     </script>
 
   </body>
-
-  <footer id="formSection"class="page-footer font-small light-blue darken-3 pt-4">
-    <div class="container">
-      <div class="row py-5">
-        <div class="col text-center" >
-              <button type="button" class="btn btn-large btn-outline-white my-2" data-toggle="modal" data-target="#communicationsPopUp" >
-                Contactez-moi
-              </button>
-              <div class="modal fade" id="communicationsPopUp" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog"role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title text-dark" id="exampleModalLabel">Canaux de communications</h5>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span class="h3"aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body text-dark">
-                        <div class="row my-2">
-                            <div class="col text-center">
-                              <button type="button" class="btn btn-outline-info waves-effect" onclick="showPhoneNumber()">
-                                <i class="fas fa-mobile fa-3x"></i>
-                              </button>
-                              <span id="modalPhoneNumber"class="d-none badge badge-dark h5-responsive"><div id="phoneNumber">06 26 64 45 67</div></span>
-                              <span id="copyToClipBoard"class="d-none btn btn-info rounded" onclick="CopyToClipboard('phoneNumber')"><i  class="fas fa-copy"></i></span>
-                            </div>
-                            <div class="col text-center">
-                              <button type="button" class="btn btn-outline-info waves-effect" data-toggle="modal" data-target="#formContact">
-                                <i class="fas fa-envelope fa-3x"></i>
-                              </button>
-                              <div class="modal fade" id="formContact" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-                              aria-hidden="true">
-                              <div class="modal-dialog"role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                      <h5 class="modal-title text-dark" id="exampleModalLabel">Par mail</h5>
-                                    
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                      <span class="h3"aria-hidden="true">&times;</span>
-                                    </button>
-                                    </div>
-                                    <div class="modal-body text-dark h-100">
-                                      <form action="https://formspree.io/f/maylnpwk" method="POST" class="text-center border border-light p-5 z-depth-2 rounded h-100">
-                                        <p class="h4 mb-4 ">N'hésitez pas à me contactez, je vous répondrai dans les plus brefs délais.</p>
-                                        <div class="md-form">
-                                          <input name="name" type="text" id="defaultContactFormName" class="form-control mb-4 md-form" placeholder="Nom" required>
-                                        </div>
-                                        <div class="md-form">
-                                          <input name="_replyto" type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail" required>
-                                        </div>
-                                        <div class="form-group">
-                                          <div class="md-form">
-                                            <textarea id="materialContactFormMessage" class="form-control md-textarea" rows="3" name="message"></textarea>
-                                            <label for="materialContactFormMessage">Votre message</label>
-                                          </div>
-                                        </div>
-                                        <button class="btn btn-info btn-block" type="submit" value="send">Envoyez<i class="fas fa-paper-plane mx-2"></i> 
-                                        </button>
-                                      </form>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                        </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-danger badge" data-dismiss="modal">Fermez</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-  
-        </div>
-      </div>
-      <div class="row py-5">
-        <div class="col">
-          <p class="text-white text-center"> CV développeur web © 2020 Yassine Basri </p>
-        </div>
-      </div>
-    </div>
-  </footer>
 </html>
